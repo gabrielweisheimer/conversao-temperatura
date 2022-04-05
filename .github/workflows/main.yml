@@ -27,7 +27,7 @@ jobs:
          push: true
          tags: |
           gweisheimer/conversao-temperatura:latest
-          gweisheimer/conversao-temperatura:${{ github.run_number}}
+          gweisheimer/conversao-temperatura:v${{ github.run_number}}
   CD:   
     needs: [CI]
     runs-on: ubuntu-latest
