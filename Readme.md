@@ -1,9 +1,5 @@
 ## PASSOS:
 
-1) docker image build -t conversao-temperatura .
-
-2) docker run -d -p 8080:8080 conversao-temperatura
-
 1. docker build -t gweisheimer/conversao-temperatura:v1 .
 2. docker push gweisheimer/conversao-temperatura:v1
 3. docker tag gweisheimer/conversao-temperatura:v1 gweisheimer/conversao-temperatura:latest
